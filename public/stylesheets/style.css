@@ -1,0 +1,219 @@
+body {
+ 
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #1bc079 !important;
+}
+
+a {
+  color: #00b7ff;
+  text-decoration: none;
+}
+
+table, tr, td, th {margin: 0;border: 0;padding: 5px;border-collapse: collapse;}
+.board-container{
+  background-color: #1bc079 !important;
+}
+li {
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 3px 3px #888;
+    padding: 5px 5px 5px 5px;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: #aaa;
+}
+
+.localStream {
+  display: inline-block;
+  top: 15px;
+  right: 15px;
+  float: right;
+}
+
+.localStream video {
+   
+    outline: 0px none;
+   
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.remoteStreams{
+  display: inline-block;
+  top: 15px;
+  right: 15px;
+  float: left;
+  text-align: center;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+
+}
+
+.remoteStreams td:hover {
+  cursor: pointer;
+  background-color: #aaa;
+}
+
+.remoteStreams .selected {
+  background-color: #444 !important;
+  text-shadow:none;
+  border-right-color: #aaa;
+  border-left: none;
+  border-radius: 3px 3px 3px 3px; 
+  box-shadow:inset 1px 2px 6px #070707;
+}
+
+.footer {
+   clear: both;
+}
+.board-container .card
+{
+  background-color: transparent !important;
+  border:0px;
+}
+.board-container .card div{
+ 
+  border:0px;
+}
+.board{
+  border-radius: 50px;
+background: #1bc079;
+box-shadow:  20px 20px 60px #17a367,
+             -20px -20px 60px #1fdd8b;
+ height:700px;  
+ margin:1%;          
+}
+.board .card{
+  
+}
+.board .btn-group{
+float:right !important
+}
+.self-camera{
+  position:absolute;
+  bottom:80px;
+  right:0px;
+ 
+}
+#localVideo{
+
+}
+.board-camera li{
+  position:absolute;
+  bottom:10px;
+  left:0px;
+
+}
+.board-container{margin:2% !important}
+.study-material{
+  border-radius: 50px;
+background: #1bc079;
+box-shadow:  20px 20px 60px #17a367,
+             -20px -20px 60px #1fdd8b;
+ height:780px; 
+ margin:10px ;
+ margin-left:1% !important;   
+ margin-right:1% !important;  
+   
+}
+.study-material .form-row{margin-top: 25px;}
+#myqrCode{
+  position: absolute;
+  top: 250px;
+  left: 175px;
+  width: 400px;
+  height: 200px;
+}
+/*Green Board*/
+#board-camera-canvas {
+	width: 490px;
+	height: 620px;
+}
+
+#videoElement {
+	width: 360px;
+	height: 640px;
+	background-color: #666;
+}
+
+.green-board-card {
+	width: 100%;
+  margin-top: 25px !important;
+}
+
+
+.green-board-card .btn:hover {
+	background: #034e28;
+	background: linear-gradient(145deg, #034e28, #0ccf6d);
+	box-shadow: 20px 20px 60px #09a457, -20px -20px 60px #0dde75;
+	border: 1px solid #09a457;
+  color:white;
+  font-weight: bold;
+}
+
+.green-board-card .btn {
+  color:white;
+	position: relative;
+	transition: all 0.2s ease;
+	letter-spacing: .025em;
+	font-size: 1rem;
+	border-radius: 15px;
+  background: #0bc166;
+box-shadow:  17px 17px 34px #0aa859,
+             -17px -17px 34px #0cda73;
+	width: 50px;
+  height:50px;
+	border: 1px solid #0bc166;
+  margin:20%;
+  margin-left:2% !important;
+  font-weight: bold;
+}
+.green-board-card .active{
+color: red !important;
+ 
+background: linear-gradient(145deg, #0aae5c, #0ccf6d);
+box-shadow:  20px 20px 60px #09a457,
+             -20px -20px 60px #0dde75;
+}
+
+.green-board-card .row {
+	flex-wrap: nowrap;
+	background-color: #1bc079;
+	height: 80px;
+}
+
+.green-board-card .col {
+	margin: 1%
+}
+.divice-button{width:33% !important;position:absolute;top:250px;left:33%}       
+
+.search-bar {
+  margin:5%;
+           
+             
+
+}
+.search-bar input{
+ 
+  width:98% !important;
+background-color: transparent !important;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: inset 8px 8px 8px #0aae5c,
+              inset -8px -8px 8px #0ccf6d;
+              border:0px !important;
+}
+th{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(253, 251, 251) !important;
+  opacity: 1; /* Firefox */
+}
+
+table.dataTable thead th, table.dataTable thead td,table.dataTable.no-footer {
+   border-bottom: 0px solid #111 !important; 
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{color:white !important}
